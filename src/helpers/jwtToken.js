@@ -16,7 +16,7 @@ const createToken = (data) => {
 const checkToken = (token) => {
   try {
     // Thử giải mã token sử dụng khóa bí mật (secret key)
-    const decodedToken = jwt.verify(token, "VULEBAOLONG");
+    const decodedToken = jwt.verify(token, "TRUONGQUOCKHANH");
 
     // Nếu giải mã thành công, token hợp lệ
     return true;
