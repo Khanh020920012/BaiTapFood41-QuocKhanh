@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 // mã hóa data
 const createToken = (data) => {
   // tạo ra token
-  let token = jwt.sign({ data }, "VULEBAOLONG", {
+  let token = jwt.sign({ data }, "TRUONGQUOCKHANH", {
     algorithm: "HS256",
     expiresIn: "90d",
   }); // HS256, ES256
